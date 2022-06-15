@@ -1,0 +1,113 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    background-color:#f18c44;
+    /* position:sticky; */
+    width:100%
+    /* border:2px solid red */
+}
+#icon{
+    float:left
+}
+#social{
+    float:right
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+/*Search Css*/
+.headingText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#content{
+    height:700px ;
+    width: 80%;
+    display:inline-block;
+    margin-left: 10%;
+}
+#imgDiv{
+    height:450px;
+    width:45% ;
+    float:left;
+    border: 8px groove grey;
+}
+#contentDiv{
+    height:550px;
+    width: 50%;
+    float:left;
+    margin-left: 3%;
+    margin-top: -2%;
+}
+
+#imgDiv > img{
+    height:450px;
+    width:100% ;
+}
+.feature_countainer{
+    width: 100%;
+    display: inline-block;
+}
+.feature{
+    float :left;
+    margin-left: 5%;
+}
+.fetIcon{
+    height:100px;
+    width:100%;
+    margin-left:2px;
+}
+.removeMargin{
+    margin-left:-1%;
+}
+h2{
+    color:green;
+    font-size: 35px;
+}
+.myButton{
+    height: 50px;
+    width: 200px;
+    font-size:20px;
+    background-color: rgb(106, 106, 102);
+    color: white;
+
+}
+.checked{
+    color: green;
+    font-size: 25px;
+}
+.filterDiv{
+    height:500px;
+    width:20%;
+    border:2px solid gray;
+    float:left
+}
+/*Footer Css*/
+footer{
+    margin-top:5%;
+    height:120px;
+    width:100%;
+    background-color:#fab889;
+}
+#footerText{
+    text-align: center;
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border:none 
+}

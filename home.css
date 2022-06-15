@@ -1,0 +1,200 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/* Header Css */
+header{
+     height: 60px;
+     /* width: 100%; */
+     background-color: #d7733b;
+     /* border: 2px solid red; */
+}
+#icon{
+    float: left;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+/* Search Css */
+#search{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid green; */
+    background-image:url(images/food-wallpaper.png);
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+#container{
+    height:350px;
+    width:60% ;
+    /* border: 2px solid white; */
+    margin-left: 20%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    color: #d7733b;
+    animation: revolve 10s infinite
+}
+@keyframes revolve{
+    0% {
+        transform: rotate(30deg);
+        margin-left:2%;
+    }
+    25% {
+        transform: rotate(90deg);
+        margin-left:20%;
+    }
+    50% {
+        transform: rotate(180deg);
+        margin-left:40%;
+    }
+    75% {
+        transform: rotate(270deg);
+        margin-left:80%;
+    }
+    100% {
+        transform: rotate(360deg);
+        margin-left:40%;
+    }
+
+}
+#logo>span{
+    margin-left: 1%; 
+    margin-top: 30%;
+    position: absolute;
+    font-size: 45px;
+
+}
+#heading{
+    font-size:  50px;
+    color: #fff;
+    margin-left: 8%;
+}
+.dropdown{
+    height: 60px;
+    width: 98%;
+    margin-top: 1%;
+    position: absolute;
+    /* border: 2px solid white; */
+
+}
+select{
+    height:60px ;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+.restSelect{
+    width: 59%;
+
+}
+/* Quick Search Css */
+#quicksearch{
+    /* height: 600px; */
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    /* border: 2px solid blue; */
+}
+#quickHeading{
+    display: block;
+    font-size: 30px;
+    color: #d7733b;
+    font-weight: bold;
+    margin-left: 2%;
+
+}
+#quickSubHeading{
+    display: block;
+    font-size: 20px;
+    color: grey;
+    line-height: 2;
+    margin-left: 2%;
+
+}
+.titleContainer{
+     width: 30%;
+     height: 180px;
+     /* border: 2px solid black; */
+     box-shadow: 10px 20px 10px;
+     float: left;
+     margin-left: 2%;
+     margin-top: 2%;
+     animation: dance 10s infinite;
+}
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+
+}
+.titleContainer:hover{
+    transform:scale(1.1);
+    /* transform: skewY(20deg); */
+    /* transform: rotate(10deg); */
+    /* transform: translate(100px,100px); */
+
+}
+.titleComponent1{
+    width: 50%;
+    height: 180px;
+    float: left;
+}
+.titleComponent1>img{
+    width: 100%;
+    height: 180px;
+}
+.titleComponent2{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 15%;
+    float: left;
+}
+.componentHeading >a{
+    color: #d7733b;
+    font-size: 25px;
+}
+.componentSubHeading{
+    color: gray;
+    font-size: 20px;
+}
+.carousel slide{
+    margin-top:5px;
+    padding-top: 5px;
+}
+/* Footer Css */
+footer{
+    margin-top: 5%;
+    height: 120px;
+    width: 100%;
+    background-color: #d7733b;
+    /* border: 2px solid hotpink; */
+}
+#footertext{
+    text-align: center;
+}
+.footDiv{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border: none;
+}
